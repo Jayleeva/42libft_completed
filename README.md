@@ -25,5 +25,5 @@ Ma libft, completee au fur et a mesure.
      ```
      clean:
        @${MAKE} -C libft fclean
-
+     ```
 Et voila! 
