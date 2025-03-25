@@ -81,5 +81,6 @@ ssize_t	strchr_(char *s, char c);
 ssize_t	ft_strlen_(const char *str);
 
 //persos
-int  is_in_set(char const *set, char c);
+int   is_in_set(char const *set, char c);
+void  free_tab(char **tab);
 #endif
