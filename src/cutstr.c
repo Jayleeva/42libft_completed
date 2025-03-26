@@ -24,6 +24,8 @@ char	*cutstr(char const *s, char c1, char c2)
 		return (NULL);
 	start = strchri(s, c1);
 	end = strchri(s, c2) - 1;
+	if (start == -1 || end == -1)
+		return (NULL);
 	len = end - start + 1;
 	result = (char *)malloc((len) * sizeof(char));
 	if (result == NULL)
