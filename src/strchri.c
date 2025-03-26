@@ -24,5 +24,5 @@ int	strchri(const char *s, int c)
 			return (i);
 		i ++;
 	}
-	return (i);
+	return (-1);
 }
